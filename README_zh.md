@@ -18,7 +18,7 @@ Yifan Gao¹², Haoyue Li¹, Feng Yuan¹, Xin Gao¹\*, Weiran Huang²³\*, Xiaoso
 
 <sup>¹ 中国科学技术大学 · ² 上海创智学院 · ³ 上海交通大学 · ⁴ 上海人工智能实验室 · \* 通讯作者</sup>
 
-📑 **[阅读论文 (PDF)](assets/camyla.pdf)**  （arXiv 链接即将放出）
+📑 **[阅读论文 (PDF)](assets/camyla.pdf)** · **[alphaXiv](https://www.alphaxiv.org/abs/2604.10696)** · **[arXiv](https://arxiv.org/abs/2604.10696)**
 
 <p align="center">
   <img src="assets/hero.png" width="760" alt="Camyla hero">
@@ -40,6 +40,25 @@ Yifan Gao¹², Haoyue Li¹, Feng Yuan¹, Xin Gao¹\*, Weiran Huang²³\*, Xiaoso
 | **T2**（JCR Q1） | 7 | 35 | IEEE Journal of Biomedical and Health Informatics; Artificial Intelligence in Medicine 等 |
 | **T3** | 9 | 45 | International Journal of Computer Assisted Radiology and Surgery; Biomedical Physics & Engineering Express 等 |
 | **合计** | 18 | 90 | |
+
+---
+
+## 📚 论文样例
+
+以下是 Camyla 端到端生成的 10 篇手稿样例（没有任何人工编辑，LaTeX 由 pipeline 直接编译）。PDF 文件都在 [`assets/paper_pdf/`](assets/paper_pdf/) 目录下。
+
+| # | 标题 | 模态 / 任务 |
+|:-:|------|------------|
+| 1 | [CDFL: Cross-Directional Feature Lattice for Brain Tumor Segmentation](assets/paper_pdf/01.pdf) | MRI · 脑肿瘤 |
+| 2 | [SFA-Net: Scale-Frequency Adaptive Fusion for Multiple Sclerosis Lesion Segmentation](assets/paper_pdf/02.pdf) | MRI · 多发性硬化病灶 |
+| 3 | [HCF-Net: Hierarchical Context Gating for Neonatal Brain Lesion Segmentation](assets/paper_pdf/03.pdf) | MRI · 新生儿 HIE |
+| 4 | [CSM-Net: Cross-Scale Mutual Refinement for Bronchoalveolar Lavage Fluid Cell Segmentation](assets/paper_pdf/04.pdf) | 显微镜 · BALF 细胞 |
+| 5 | [SAC-Net: Symmetry-Aware Cascaded Attention for Panoramic Tooth Segmentation](assets/paper_pdf/05.pdf) | 口腔 X 光 · 牙齿 |
+| 6 | [SRD-Net: Specular-Residual Decoupled Encoding for Surgical Scene Segmentation](assets/paper_pdf/06.pdf) | 腹腔镜 · 术野 |
+| 7 | [ScaleGate-Net: Adaptive Scale-Aware Feature Integration for Liver Lesion Segmentation](assets/paper_pdf/07.pdf) | CT · 肝脏病灶 |
+| 8 | [BHD-Net: Boundary-Hierarchical Decomposition for Fetal Brain Tissue Segmentation](assets/paper_pdf/08.pdf) | MRI · 胎儿脑 |
+| 9 | [VBR-Net: Vessel-Guided Boundary Residual Networks for Dermatological Vessel Segmentation](assets/paper_pdf/09.pdf) | OCTA · 皮肤血管 |
+| 10 | [HRFuse-Net: Hierarchical Resolution-Retentive Feature Encoding for Brain Metastasis Segmentation](assets/paper_pdf/10.pdf) | MRI · 脑转移瘤 |
 
 ---
 
@@ -334,7 +353,7 @@ camyla/
   title         = {Camyla: Scaling Autonomous Research in Medical Image Segmentation},
   author        = {Gao, Yifan and Li, Haoyue and Yuan, Feng and Gao, Xin and Huang, Weiran and Wang, Xiaosong},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
+  eprint        = {2604.10696},
   archivePrefix = {arXiv},
   primaryClass  = {cs.AI}
 }

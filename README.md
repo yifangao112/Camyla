@@ -18,7 +18,7 @@ Yifan Gao¹², Haoyue Li¹, Feng Yuan¹, Xin Gao¹\*, Weiran Huang²³\*, Xiaoso
 
 <sup>¹ USTC · ² Shanghai Innovation Institute · ³ SJTU · ⁴ Shanghai AI Lab · \* Corresponding authors</sup>
 
-📑 **[Read the paper (PDF)](assets/camyla.pdf)**  (arXiv link coming soon)
+📑 **[Read the paper (PDF)](assets/camyla.pdf)** · **[alphaXiv](https://www.alphaxiv.org/abs/2604.10696)** · **[arXiv](https://arxiv.org/abs/2604.10696)**
 
 <p align="center">
   <img src="assets/hero.png" width="760" alt="Camyla hero">
@@ -40,6 +40,27 @@ Yifan Gao¹², Haoyue Li¹, Feng Yuan¹, Xin Gao¹\*, Weiran Huang²³\*, Xiaoso
 | **T2** (JCR Q1) | 7 | 35 | IEEE Journal of Biomedical and Health Informatics; Artificial Intelligence in Medicine; et al. |
 | **T3** | 9 | 45 | International Journal of Computer Assisted Radiology and Surgery; Biomedical Physics & Engineering Express; et al. |
 | **Total** | 18 | 90 | |
+
+---
+
+## 📚 Sample generated papers
+
+A 10-paper subset of the manuscripts Camyla produced end-to-end — no hand-editing,
+LaTeX compiled as-is by the pipeline. Each PDF lives under
+[`assets/paper_pdf/`](assets/paper_pdf/).
+
+| # | Title | Modality / task |
+|:-:|-------|-----------------|
+| 1 | [CDFL: Cross-Directional Feature Lattice for Brain Tumor Segmentation](assets/paper_pdf/01.pdf) | MRI · brain tumor |
+| 2 | [SFA-Net: Scale-Frequency Adaptive Fusion for Multiple Sclerosis Lesion Segmentation](assets/paper_pdf/02.pdf) | MRI · MS lesions |
+| 3 | [HCF-Net: Hierarchical Context Gating for Neonatal Brain Lesion Segmentation](assets/paper_pdf/03.pdf) | MRI · neonatal HIE |
+| 4 | [CSM-Net: Cross-Scale Mutual Refinement for Bronchoalveolar Lavage Fluid Cell Segmentation](assets/paper_pdf/04.pdf) | Microscopy · BALF cells |
+| 5 | [SAC-Net: Symmetry-Aware Cascaded Attention for Panoramic Tooth Segmentation](assets/paper_pdf/05.pdf) | Dental X-ray · tooth |
+| 6 | [SRD-Net: Specular-Residual Decoupled Encoding for Surgical Scene Segmentation](assets/paper_pdf/06.pdf) | Laparoscopy · surgical scene |
+| 7 | [ScaleGate-Net: Adaptive Scale-Aware Feature Integration for Liver Lesion Segmentation](assets/paper_pdf/07.pdf) | CT · liver lesion |
+| 8 | [BHD-Net: Boundary-Hierarchical Decomposition for Fetal Brain Tissue Segmentation](assets/paper_pdf/08.pdf) | MRI · fetal brain |
+| 9 | [VBR-Net: Vessel-Guided Boundary Residual Networks for Dermatological Vessel Segmentation](assets/paper_pdf/09.pdf) | OCTA · dermatological vessel |
+| 10 | [HRFuse-Net: Hierarchical Resolution-Retentive Feature Encoding for Brain Metastasis Segmentation](assets/paper_pdf/10.pdf) | MRI · brain metastasis |
 
 ---
 
@@ -360,7 +381,7 @@ If you find this project useful in academic work, please cite:
   title         = {Camyla: Scaling Autonomous Research in Medical Image Segmentation},
   author        = {Gao, Yifan and Li, Haoyue and Yuan, Feng and Gao, Xin and Huang, Weiran and Wang, Xiaosong},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
+  eprint        = {2604.10696},
   archivePrefix = {arXiv},
   primaryClass  = {cs.AI}
 }

@@ -15,6 +15,7 @@ scripts/
 .agent/
 pdf/
 vis/
+project/
 
 # --- Common Python ignores (strongly recommended) ---
 # Bytecode files
