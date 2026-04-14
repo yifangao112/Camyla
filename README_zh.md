@@ -43,25 +43,6 @@ Yifan Gao¹², Haoyue Li¹, Feng Yuan¹, Xin Gao¹\*, Weiran Huang²³\*, Xiaoso
 
 ---
 
-## 📚 论文样例
-
-以下是 Camyla 端到端生成的 10 篇手稿样例（没有任何人工编辑，LaTeX 由 pipeline 直接编译）。PDF 文件都在 [`assets/paper_pdf/`](assets/paper_pdf/) 目录下。
-
-| # | 标题 | 模态 / 任务 |
-|:-:|------|------------|
-| 1 | [CDFL: Cross-Directional Feature Lattice for Brain Tumor Segmentation](assets/paper_pdf/01.pdf) | MRI · 脑肿瘤 |
-| 2 | [SFA-Net: Scale-Frequency Adaptive Fusion for Multiple Sclerosis Lesion Segmentation](assets/paper_pdf/02.pdf) | MRI · 多发性硬化病灶 |
-| 3 | [HCF-Net: Hierarchical Context Gating for Neonatal Brain Lesion Segmentation](assets/paper_pdf/03.pdf) | MRI · 新生儿 HIE |
-| 4 | [CSM-Net: Cross-Scale Mutual Refinement for Bronchoalveolar Lavage Fluid Cell Segmentation](assets/paper_pdf/04.pdf) | 显微镜 · BALF 细胞 |
-| 5 | [SAC-Net: Symmetry-Aware Cascaded Attention for Panoramic Tooth Segmentation](assets/paper_pdf/05.pdf) | 口腔 X 光 · 牙齿 |
-| 6 | [SRD-Net: Specular-Residual Decoupled Encoding for Surgical Scene Segmentation](assets/paper_pdf/06.pdf) | 腹腔镜 · 术野 |
-| 7 | [ScaleGate-Net: Adaptive Scale-Aware Feature Integration for Liver Lesion Segmentation](assets/paper_pdf/07.pdf) | CT · 肝脏病灶 |
-| 8 | [BHD-Net: Boundary-Hierarchical Decomposition for Fetal Brain Tissue Segmentation](assets/paper_pdf/08.pdf) | MRI · 胎儿脑 |
-| 9 | [VBR-Net: Vessel-Guided Boundary Residual Networks for Dermatological Vessel Segmentation](assets/paper_pdf/09.pdf) | OCTA · 皮肤血管 |
-| 10 | [HRFuse-Net: Hierarchical Resolution-Retentive Feature Encoding for Brain Metastasis Segmentation](assets/paper_pdf/10.pdf) | MRI · 脑转移瘤 |
-
----
-
 ## 📰 最新动态
 
 - **2026-04-13** —— 首次公开发布代码、论文，以及 **CamylaBench**（31 个已预处理数据集，[📦 Google Drive](https://drive.google.com/drive/folders/11BrGWWZw8yr2o2AkVV9o5e7de-T9nngz?usp=sharing)）。完整的 **CamylaTrace-232K** 轨迹数据集（包含逐次运行日志与中间产物）仍在整理中，随后即将发布。
@@ -331,6 +312,25 @@ camyla/
   提供一组精选的 CNN / Transformer / state-space backbone。Camyla 的 baseline 阶段运行 CamylaNet 的 trainer。
 - [nnPrep](https://github.com/yifangao112/nnPrep) —— 一个把任意医学分割数据集转成
   nnU-Net v2 格式的 LLM agent，供 CamylaNet（进而供 Camyla）使用。
+
+---
+
+## 📚 论文样例
+
+以下是 Camyla 端到端生成的 10 篇手稿样例（没有任何人工编辑，LaTeX 由 pipeline 直接编译）。PDF 文件都在 [`assets/paper_pdf/`](assets/paper_pdf/) 目录下。
+
+| # | 标题 | 模态 / 任务 |
+|:-:|------|------------|
+| 1 | [Cross-Directional Feature Lattice for Brain Tumor Segmentation](assets/paper_pdf/01.pdf) | MRI · 脑肿瘤 |
+| 2 | [Scale-Frequency Adaptive Fusion for Multiple Sclerosis Lesion Segmentation](assets/paper_pdf/02.pdf) | MRI · 多发性硬化病灶 |
+| 3 | [Hierarchical Context Gating for Neonatal Brain Lesion Segmentation](assets/paper_pdf/03.pdf) | MRI · 新生儿 HIE |
+| 4 | [Cross-Scale Mutual Refinement for Bronchoalveolar Lavage Fluid Cell Segmentation](assets/paper_pdf/04.pdf) | 显微镜 · BALF 细胞 |
+| 5 | [Symmetry-Aware Cascaded Attention for Panoramic Tooth Segmentation](assets/paper_pdf/05.pdf) | 口腔 X 光 · 牙齿 |
+| 6 | [Specular-Residual Decoupled Encoding for Surgical Scene Segmentation](assets/paper_pdf/06.pdf) | 腹腔镜 · 术野 |
+| 7 | [Adaptive Scale-Aware Feature Integration for Liver Lesion Segmentation](assets/paper_pdf/07.pdf) | CT · 肝脏病灶 |
+| 8 | [Boundary-Hierarchical Decomposition for Fetal Brain Tissue Segmentation](assets/paper_pdf/08.pdf) | MRI · 胎儿脑 |
+| 9 | [Vessel-Guided Boundary Residual Networks for Dermatological Vessel Segmentation](assets/paper_pdf/09.pdf) | OCTA · 皮肤血管 |
+| 10 | [Hierarchical Resolution-Retentive Feature Encoding for Brain Metastasis Segmentation](assets/paper_pdf/10.pdf) | MRI · 脑转移瘤 |
 
 ---
 
